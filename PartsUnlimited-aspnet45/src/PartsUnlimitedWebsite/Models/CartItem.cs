@@ -17,5 +17,7 @@ namespace PartsUnlimited.Models
         public DateTime DateCreated { get; set; }
 
         public virtual Product Product { get; set; }
+
+        public int CountExt { get; set; }
     }
 }

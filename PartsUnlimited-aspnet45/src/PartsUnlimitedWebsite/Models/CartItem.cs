@@ -18,6 +18,7 @@ namespace PartsUnlimited.Models
 
         public virtual Product Product { get; set; }
 
-        public int CountExt { get; set; }
+        public int CountExt1 { get; set; }
+        public int CountExt2 { get; set; }
     }
 }
